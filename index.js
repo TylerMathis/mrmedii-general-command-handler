@@ -24,9 +24,6 @@ function onMessageHandler(target, context, msg, self) {
     case '!hi':
       client.say(target, 'yo Kapp');
       break;
-    case '!8ball':
-      eightBall(target);
-      break;
 	case '!skyhii':
 	  client.say(target, 'HEY SKYHII IF YOU\'RE HERE REMIND ME TO MAKE THIS');
 	  break;
