@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/TylerMathis/mrmedii-general-command-handler/issues"
   },
-  "homepage": "https://github.com/TylerMathis/mrmedii-general-command-handler#readme"
+  "homepage": "https://github.com/TylerMathis/mrmedii-general-command-handler#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
 }
