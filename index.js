@@ -42,5 +42,8 @@ function onMessageHandler(target, context, msg, self) {
     case '!azrael':
         client.say(target, 'Death has come to claim your soul.');
         break;
+    case '!aeria':
+        client.say(target, 'The best sis there is - reb');
+        break;
   }
 }
