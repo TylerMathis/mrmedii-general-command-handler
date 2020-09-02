@@ -40,7 +40,7 @@ function onMessageHandler(target, context, msg, self) {
         client.say(target, 'he\'s just ok');
         break;
     case '!azrael':
-        client.say(taget, 'Death has come to claim your soul.');
+        client.say(target, 'Death has come to claim your soul.');
         break;
   }
 }
