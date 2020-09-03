@@ -45,5 +45,11 @@ function onMessageHandler(target, context, msg, self) {
     case '!aeria':
         client.say(target, 'The best sis there is - reb');
         break;
-  }
+    case '!juego':
+        client.say(target, '@' + context.username + 'is here.... but not here..... if that make sense...');
+        break;
+    case '!cheese':
+        client.say(target, 'Ah yes, the energy of the future.');
+        break;
+    }
 }
