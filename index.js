@@ -25,7 +25,7 @@ function onMessageHandler(target, context, msg, self) {
         client.say(target, 'yo Kapp');
         break;
 	case '!skyhii':
-        client.say(target, 'SKY REMIND ME TO MAKE THIS!!');
+        client.say(target, 'You don\'t question the Sky. NEVER question the Sky.');
         break;
 	case '!sheep':
         client.say(target, 'Love is stored in the sheep <3');
@@ -51,5 +51,8 @@ function onMessageHandler(target, context, msg, self) {
     case '!cheese':
         client.say(target, 'Ah yes, the energy of the future.');
         break;
+	case '!jessi':
+		client.say(target, 'Jessi #1 lurker!');
+		break;
     }
 }
