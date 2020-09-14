@@ -57,5 +57,8 @@ function onMessageHandler(target, context, msg, self) {
     case '!ram':
         client.say(target, 'As a certain Ram once said, everyone here is gaming <3');
         break;
+    case '!cactus':
+        client.say(target, 'Prickly, but sweet :)');
+        break;
     }
 }
