@@ -60,5 +60,11 @@ function onMessageHandler(target, context, msg, self) {
     case '!cactus':
         client.say(target, 'Prickly, but sweet :)');
         break;
+    case '!raid':
+        client.say(target, 'MEDII RAID mrmedi6Pog mrmedi6Hype MEDII RAID mrmedi6Pog mrmedi6Hype MEDII RAID mrmedi6Pog mrmedi6Hype MEDII RAID mrmedi6Pog mrmedi6Hype MEDII RAID mrmedi6Pog mrmedi6Hype MEDII RAID mrmedi6Pog mrmedi6Hype MEDII RAID mrmedi6Pog mrmedi6Hype');
+		break;
+	case '!hype':
+		client.say(target, 'mrmedi6Hype mrmedi6Hype h y p e!!!!! mrmedi6Hype mrmedi6Hype');
+		break;
     }
 }
