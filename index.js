@@ -66,5 +66,8 @@ function onMessageHandler(target, context, msg, self) {
 	case '!hype':
 		client.say(target, 'mrmedi6Hype mrmedi6Hype h y p e!!!!! mrmedi6Hype mrmedi6Hype');
 		break;
+    case '!himbo':
+        client.say(target, '5Head H I M B O AND MEDII WAS HIS NAME-O 5HEad');
+        break;
     }
 }
