@@ -69,5 +69,11 @@ function onMessageHandler(target, context, msg, self) {
     case '!himbo':
         client.say(target, '5Head H I M B O AND MEDII WAS HIS NAME-O 5Head');
         break;
+    case '!antiparty':
+        client.say(target, 'mrmedi6Sad mrmedi6Sad S A D mrmedi6Sad mrmedi6Sad :balloon:');
+        break;
+    case '!anigma':
+        client.say(target, 'his luck is b i g his brain is not');
+		break;
     }
 }
