@@ -75,5 +75,8 @@ function onMessageHandler(target, context, msg, self) {
     case '!anigma':
         client.say(target, 'his luck is b i g his brain is not');
 		break;
+    case '!mooshi':
+        client.say(target, 'I\'m so proud of you!');
+        break;
     }
 }
