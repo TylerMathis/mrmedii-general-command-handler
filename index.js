@@ -78,5 +78,8 @@ function onMessageHandler(target, context, msg, self) {
     case '!mooshi':
         client.say(target, 'I\'m so proud of you!');
         break;
+    case '!purlmotto':
+        client.say(target, 'GOODNIGHT! stay safe stay awesome stay epic stay cool stay wonderful stay amazing stay wholesome and, most importantly, STAY FRIGIN SAFE! GOODNIGHT!');
+        break;
     }
 }
