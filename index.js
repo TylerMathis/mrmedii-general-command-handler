@@ -81,5 +81,8 @@ function onMessageHandler(target, context, msg, self) {
     case '!purlmotto':
         client.say(target, 'GOODNIGHT! stay safe stay awesome stay epic stay cool stay wonderful stay amazing stay wholesome and, most importantly, STAY FRIGIN SAFE! GOODNIGHT!');
         break;
+    case '!brainfood':
+        client.say(target, 'Brainfood47 is canonically better than MrMedii.');
+        break;
     }
 }
